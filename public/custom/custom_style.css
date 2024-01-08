@@ -1,0 +1,44 @@
+
+header:before {
+    content: "";
+    background-color: #014d86;
+    height: 70px;
+    width: 100%;
+    text-align: center;
+    position: fixed;
+    top: 0;
+    z-index: 100;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, .12), 0 1px 2px rgba(0, 0, 0, .24);
+}
+
+header #logo {
+    position: fixed;
+    top : 35px;
+    right: 40px;
+    z-index: 102;
+    transform: translateY(-50%);
+}
+
+header #logo img {
+    height: 50px;
+    background: transparent;
+}
+
+#swagger-ui.api-platform .info .title {
+    color: #014d86;
+}
+
+.swagger-ui .auth-wrapper .authorize {
+    display: none;
+}
+
+#swagger-ui.api-platform .opblock.opblock-get .opblock-summary-method {
+    background-color: #014d86;
+}
+
+#swagger-ui.api-platform .btn.execute {
+    background-color: #014d86;
+    border-color: #014d86;
+    animation: none;
+    transition: all ease .3s;
+}
