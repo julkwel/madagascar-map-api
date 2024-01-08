@@ -27,28 +27,11 @@ jobs:
 
     - name: Copy .env.test
       run: php -r "file_exists('.env') || copy('.env.test', '.env');"
-      
-    - uses: actions/checkout@v3
-    -
-        name: Set up Docker Buildx
-        uses: docker/setup-buildx-action@v3
-    -
-      name: Build Docker Images
-      uses: docker/bake-action@v4
-      with:
-        pull: true
-        load: true
-        files: |
-          compose.yaml
 
-    - name: Cache Composer packages
-      id: composer-cache
-      uses: actions/cache@v3
-      with:
-        path: vendor
-        key: ${{ runner.os }}-php-${{ hashFiles('**/composer.lock') }}
-        restore-keys: |
-          ${{ runner.os }}-php-
+    - name: Build and run docker
+      run: |
+        docker compose build
+        docker compose up
   
     - name: Install Dependencies
       run: composer install -q --no-ansi --no-interaction --no-scripts --no-progress --prefer-dist
