@@ -28,11 +28,23 @@ jobs:
     - name: Copy .env.test
       run: php -r "file_exists('.env') || copy('.env.test', '.env');"
 
-    - name: Build and run docker
-      run: |
-        docker compose -f compose.yaml build
-        docker compose up
-  
+    - name: Checkout
+      uses: actions/checkout@v4
+
+    - name: Set up Docker Buildx
+      uses: docker/setup-buildx-action@v3
+
+    - name: Build Docker Images
+      uses: docker/bake-action@v4
+      with:
+        pull: true
+        load: true
+        files: |
+          compose.yaml
+    -
+      name: Start services
+      run: docker compose up --wait
+
     - name: Install Dependencies
       run: composer install -q --no-ansi --no-interaction --no-scripts --no-progress --prefer-dist
   
