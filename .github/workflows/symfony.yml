@@ -30,7 +30,7 @@ jobs:
 
     - name: Build and run docker
       run: |
-        docker compose build
+        docker compose build -f compose.yaml
         docker compose up
   
     - name: Install Dependencies
