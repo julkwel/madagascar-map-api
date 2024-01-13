@@ -2,6 +2,8 @@
 
 namespace App\Entity;
 
+use ApiPlatform\Doctrine\Orm\Filter\SearchFilter;
+use ApiPlatform\Metadata\ApiFilter;
 use ApiPlatform\Metadata\ApiResource;
 use ApiPlatform\Metadata\Get;
 use ApiPlatform\Metadata\GetCollection;
@@ -19,6 +21,7 @@ use Symfony\Component\Uid\Uuid;
     ],
     normalizationContext: ['groups' => ['fokontany:read']]
 )]
+#[ApiFilter(SearchFilter::class, properties: ['id' => 'exact', 'name' => 'partial'])]
 class Fokontany
 {
     #[ORM\Id]
