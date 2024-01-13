@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="fr" class="no-js">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Mada localization</title>
+    <link href="https://fonts.googleapis.com/css?family=Heebo:400,700|IBM+Plex+Sans:600" rel="stylesheet">
+    <link rel="stylesheet" href="{{ asset('custom/css/style.css') }}">
+    <script src="https://unpkg.com/scrollreveal@4.0.0/dist/scrollreveal.min.js"></script>
+</head>
+<body class="is-boxed has-animations">
+<div class="body-wrap boxed-container">
+    <header class="site-header">
+        <div class="container">
+            <div class="site-header-inner">
+                <div class="brand header-brand">
+                    <h1 class="m-0">
+                        <a href="#">
+                            <img class="header-logo-image asset-light" src="{{ asset('custom/img_1.png') }}" height="50" width="50" alt="Logo">
+                            <img class="header-logo-image asset-dark" src="{{ asset('custom/img_1.png') }}" height="50" width="50" alt="Logo">
+                        </a>
+                    </h1>
+                </div>
+                <div class="lights-toggle">
+                    <input id="lights-toggle" type="checkbox" name="lights-toggle" class="switch" checked="checked">
+                    <label for="lights-toggle" class="text-xs"><span>Turn me <span class="label-text">dark</span></span></label>
+                </div>
+            </div>
+        </div>
+    </header>
+    <main>
+        <section class="hero">
+            <div class="container">
+                <div class="hero-inner">
+                    <div class="hero-copy">
+                        <h1 class="hero-title mt-0">Madagascar MAP Project</h1>
+                        <p class="hero-paragraph">The Madagascar Map initiative aims to provide comprehensive and accurate information about towns,
+                            cities, districts, and regions in Madagascar.
+                            The project involves adding code and SVG tiles for each city, with the ultimate goal of implementing a robust search query functionality.".</p>
+                        <div class="hero-cta">
+                            <a class="button button-primary" href="{{ path('api_doc') }}">Go to API</a>
+                            <iframe src="https://ghbtns.com/github-btn.html?user=julkwel&repo=madagascar-map-api&type=star&count=true&size=large"
+                                    frameborder="0" scrolling="0" width="170" height="30" title="GitHub">
+                            </iframe>
+                        </div>
+                    </div>
+                    <div class="hero-media">
+                        <div class="header-illustration">
+                            <img class="header-illustration-image asset-light" src="{{ asset('custom/images/header-illustration-light.svg') }}" alt="Header illustration">
+                            <img class="header-illustration-image asset-dark" src="{{ asset('custom/images/header-illustration-dark.svg') }}" alt="Header illustration">
+                        </div>
+                        <div class="hero-media-illustration">
+                            <img class="hero-media-illustration-image asset-light" src="{{ asset('custom/images/hero-media-illustration-light.svg') }}" alt="Hero media illustration">
+                            <img class="hero-media-illustration-image asset-dark" src="{{ asset('custom/images/hero-media-illustration-dark.svg') }}" alt="Hero media illustration">
+                        </div>
+                        <div class="hero-media-container">
+                            <img class="hero-media-image asset-light" src="{{ asset('custom/images/mada-ill.png') }}" alt="Hero media">
+                            <img class="hero-media-image asset-dark" src="{{ asset('custom/images/mada-ill.png') }}" alt="Hero media">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+</div>
+
+<script src="{{ asset('custom/js/main.min.js') }}"></script>
+<script async defer src="https://buttons.github.io/buttons.js"></script>
+</body>
+</html>
