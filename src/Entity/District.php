@@ -19,7 +19,7 @@ use Symfony\Component\Uid\Uuid;
         new GetCollection(),
         new Get()
     ],
-    normalizationContext: ['groups' => ['district:read']]
+    normalizationContext: ['groups' => ['district:read', 'commune:read', 'fokontany:read']]
 )]
 class District
 {
@@ -31,10 +31,11 @@ class District
     private ?Uuid $id = null;
 
     #[ORM\Column(length: 255)]
-    #[Groups(['district:read'])]
+    #[Groups(['district:read', 'commune:read', 'fokontany:read'])]
     private ?string $name = null;
 
     #[ORM\ManyToOne(inversedBy: 'districts')]
+    #[Groups(['district:read'])]
     private ?Region $region = null;
 
     #[ORM\OneToMany(mappedBy: 'district', targetEntity: Commune::class)]

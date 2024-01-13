@@ -19,7 +19,7 @@ use Symfony\Component\Uid\Uuid;
         new GetCollection(),
         new Get()
     ],
-    normalizationContext: ['groups' => ['commune:read']]
+    normalizationContext: ['groups' => ['commune:read', 'fokontany:read']]
 )]
 class Commune
 {
@@ -31,13 +31,15 @@ class Commune
     private ?Uuid $id = null;
 
     #[ORM\Column(length: 255)]
-    #[Groups(['commune:read'])]
+    #[Groups(['commune:read', 'fokontany:read'])]
     private ?string $name = null;
 
     #[ORM\ManyToOne(inversedBy: 'communes')]
+    #[Groups(['commune:read'])]
     private ?Region $region = null;
 
     #[ORM\ManyToOne(inversedBy: 'communes')]
+    #[Groups(['commune:read'])]
     private ?District $district = null;
 
     #[ORM\OneToMany(mappedBy: 'commune', targetEntity: Fokontany::class)]
