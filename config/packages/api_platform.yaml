@@ -1,5 +1,5 @@
 api_platform:
-    title: Madagascar Localisation
+    title: Madagascar Localization
     version: 1.0.0
     formats:
         jsonld: ['application/ld+json']
@@ -8,6 +8,7 @@ api_platform:
         jsonopenapi: ['application/vnd.openapi+json']
         html: ['text/html']
     defaults:
+        pagination_items_per_page: 30
         stateless: true
         cache_headers:
             vary: ['Content-Type', 'Authorization', 'Origin']
