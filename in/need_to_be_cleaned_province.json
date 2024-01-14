@@ -1,0 +1,565 @@
+﻿{
+    "data": [
+        {
+            "Region1": "Antananarivo",
+            "Region2": "Analamanga",
+            "Region3": "Ambohidratrimo",
+            "ZIP\n": 105
+        },
+        {
+            "Region1": "Analamanga",
+            "Region2": "Andramasina",
+            "Region3": 106
+        },
+        {
+            "Region1": "Analamanga",
+            "Region2": "Anjozorobe",
+            "Region3": 107
+        },
+        {
+            "Region1": "Analamanga",
+            "Region2": "Ankazobe",
+            "Region3": 108
+        },
+        {
+            "Region1": "Analamanga",
+            "Region2": "Antananarivo",
+            "Region3": 101
+        },
+        {
+            "Region1": "Analamanga",
+            "Region2": "Antananarivo Nord",
+            "Region3": 103
+        },
+        {
+            "Region1": "Analamanga",
+            "Region2": "Antananarivo Sud",
+            "Region3": 102
+        },
+        {
+            "Region1": "Analamanga",
+            "Region2": "Manjakandriana",
+            "Region3": 116
+        },
+        {
+            "Region1": "Bongolava",
+            "Region2": "Fenoarivo Centre",
+            "Region3": 115
+        },
+        {
+            "Region1": "Bongolava",
+            "Region2": "Tsiroanomandidy",
+            "Region3": 119
+        },
+        {
+            "Region1": "Itasy",
+            "Region2": "Arivonimamo",
+            "Region3": 112
+        },
+        {
+            "Region1": "Itasy",
+            "Region2": "Miarinarivo",
+            "Region3": 117
+        },
+        {
+            "Region1": "Itasy",
+            "Region2": "Soavinandriana",
+            "Region3": 118
+        },
+        {
+            "Region1": "Vakinankaratra",
+            "Region2": "Ambatolampy",
+            "Region3": 104
+        },
+        {
+            "Region1": "Vakinankaratra",
+            "Region2": "Antanifotsy",
+            "Region3": 109
+        },
+        {
+            "Region1": "Vakinankaratra",
+            "Region2": "Antsirabe Rural",
+            "Region3": 111
+        },
+        {
+            "Region1": "Vakinankaratra",
+            "Region2": "Antsirabe Urban",
+            "Region3": 110
+        },
+        {
+            "Region1": "Vakinankaratra",
+            "Region2": "Betafo",
+            "Region3": 113
+        },
+        {
+            "Region1": "Vakinankaratra",
+            "Region2": "Faratsiho",
+            "Region3": 114
+        },
+        {
+            "Region1": "Antsiranana",
+            "Region2": "Diana",
+            "Region3": "Ambanja",
+            "ZIP\n": 203
+        },
+        {
+            "Region1": "Diana",
+            "Region2": "Ambilobe",
+            "Region3": 204
+        },
+        {
+            "Region1": "Diana",
+            "Region2": "Antsiranana Rural",
+            "Region3": 202
+        },
+        {
+            "Region1": "Diana",
+            "Region2": "Antsiranana Urban",
+            "Region3": 201
+        },
+        {
+            "Region1": "Diana",
+            "Region2": "Nosy Be",
+            "Region3": 207
+        },
+        {
+            "Region1": "Sava",
+            "Region2": "Andapa",
+            "Region3": 205
+        },
+        {
+            "Region1": "Sava",
+            "Region2": "Antalaha",
+            "Region3": 206
+        },
+        {
+            "Region1": "Sava",
+            "Region2": "Sambava",
+            "Region3": 208
+        },
+        {
+            "Region1": "Sava",
+            "Region2": "Vohimarina (Iharana)",
+            "Region3": 209
+        },
+        {
+            "Region1": "Fianarantsoa",
+            "Region2": "Amoron'i Mania",
+            "Region3": "Ambatofinandrahana",
+            "ZIP\n": 304
+        },
+        {
+            "Region1": "Amoron'i Mania",
+            "Region2": "Ambositra",
+            "Region3": 306
+        },
+        {
+            "Region1": "Amoron'i Mania",
+            "Region2": "Fandriana",
+            "Region3": 308
+        },
+        {
+            "Region1": "Amoron'i Mania",
+            "Region2": "Manandriana",
+            "Region3": 323
+        },
+        {
+            "Region1": "Atsimo-Atsinana",
+            "Region2": "Befotaka",
+            "Region3": 307
+        },
+        {
+            "Region1": "Atsimo-Atsinana",
+            "Region2": "Farafangana",
+            "Region3": 309
+        },
+        {
+            "Region1": "Atsimo-Atsinana",
+            "Region2": "Midongy Sud",
+            "Region3": 318
+        },
+        {
+            "Region1": "Atsimo-Atsinana",
+            "Region2": "Vangaindrano",
+            "Region3": 320
+        },
+        {
+            "Region1": "Atsimo-Atsinana",
+            "Region2": "Vondrozo",
+            "Region3": 322
+        },
+        {
+            "Region1": "Haute Matsiatra",
+            "Region2": "Ambalavao",
+            "Region3": 303
+        },
+        {
+            "Region1": "Haute Matsiatra",
+            "Region2": "Ambohimahasoa",
+            "Region3": 305
+        },
+        {
+            "Region1": "Haute Matsiatra",
+            "Region2": "Fianarantsoa Rural",
+            "Region3": 302
+        },
+        {
+            "Region1": "Haute Matsiatra",
+            "Region2": "Fianarantsoa Urban",
+            "Region3": 301
+        },
+        {
+            "Region1": "Haute Matsiatra",
+            "Region2": "Ikalamavony",
+            "Region3": 314
+        },
+        {
+            "Region1": "Ihorombe",
+            "Region2": "Iakora",
+            "Region3": 311
+        },
+        {
+            "Region1": "Ihorombe",
+            "Region2": "Ihosy",
+            "Region3": 313
+        },
+        {
+            "Region1": "Ihorombe",
+            "Region2": "Ivohibe",
+            "Region3": 315
+        },
+        {
+            "Region1": "Vatovavy Fitovinany",
+            "Region2": "Ifanadiana",
+            "Region3": 312
+        },
+        {
+            "Region1": "Vatovavy Fitovinany",
+            "Region2": "Ikongo",
+            "Region3": 310
+        },
+        {
+            "Region1": "Vatovavy Fitovinany",
+            "Region2": "Manakara Sud",
+            "Region3": 316
+        },
+        {
+            "Region1": "Vatovavy Fitovinany",
+            "Region2": "Mananjary",
+            "Region3": 317
+        },
+        {
+            "Region1": "Vatovavy Fitovinany",
+            "Region2": "Nosy Varika",
+            "Region3": 319
+        },
+        {
+            "Region1": "Vatovavy Fitovinany",
+            "Region2": "Vohipeno",
+            "Region3": 321
+        },
+        {
+            "Region1": "Mahajanga",
+            "Region2": "Betsiboka",
+            "Region3": "Kandreho",
+            "ZIP\n": 411
+        },
+        {
+            "Region1": "Betsiboka",
+            "Region2": "Maevatanana",
+            "Region3": 412
+        },
+        {
+            "Region1": "Betsiboka",
+            "Region2": "Tsaratanana",
+            "Region3": 421
+        },
+        {
+            "Region1": "Boeny",
+            "Region2": "Ambato-Boina",
+            "Region3": 403
+        },
+        {
+            "Region1": "Boeny",
+            "Region2": "Mahajanga Rural",
+            "Region3": 402
+        },
+        {
+            "Region1": "Boeny",
+            "Region2": "Mahajanga Urban",
+            "Region3": 401
+        },
+        {
+            "Region1": "Boeny",
+            "Region2": "Marovoay",
+            "Region3": 416
+        },
+        {
+            "Region1": "Boeny",
+            "Region2": "Mitsinjo",
+            "Region3": 417
+        },
+        {
+            "Region1": "Boeny",
+            "Region2": "Soalala",
+            "Region3": 420
+        },
+        {
+            "Region1": "Melaky",
+            "Region2": "Ambatomainty",
+            "Region3": 404
+        },
+        {
+            "Region1": "Melaky",
+            "Region2": "Antsalova",
+            "Region3": 406
+        },
+        {
+            "Region1": "Melaky",
+            "Region2": "Besalampy",
+            "Region3": 410
+        },
+        {
+            "Region1": "Melaky",
+            "Region2": "Maintirano",
+            "Region3": 413
+        },
+        {
+            "Region1": "Melaky",
+            "Region2": "Morafanobe",
+            "Region3": 418
+        },
+        {
+            "Region1": "Sofia",
+            "Region2": "Analalava",
+            "Region3": 405
+        },
+        {
+            "Region1": "Sofia",
+            "Region2": "Antsihihy",
+            "Region3": 407
+        },
+        {
+            "Region1": "Sofia",
+            "Region2": "Bealanana",
+            "Region3": 408
+        },
+        {
+            "Region1": "Sofia",
+            "Region2": "Befandriana Nord",
+            "Region3": 409
+        },
+        {
+            "Region1": "Sofia",
+            "Region2": "Mampikony",
+            "Region3": 414
+        },
+        {
+            "Region1": "Sofia",
+            "Region2": "Mandritsara",
+            "Region3": 415
+        },
+        {
+            "Region1": "Sofia",
+            "Region2": "Port Bergé",
+            "Region3": 419
+        },
+        {
+            "Region1": "Toamasina",
+            "Region2": "Alaotra-Mangoro",
+            "Region3": "Ambatondrazaka",
+            "ZIP\n": 503
+        },
+        {
+            "Region1": "Alaotra-Mangoro",
+            "Region2": "Amparafaravola",
+            "Region3": 504
+        },
+        {
+            "Region1": "Alaotra-Mangoro",
+            "Region2": "Andilamena",
+            "Region3": 505
+        },
+        {
+            "Region1": "Alaotra-Mangoro",
+            "Region2": "Anosibe",
+            "Region3": 506
+        },
+        {
+            "Region1": "Alaotra-Mangoro",
+            "Region2": "Moramanga",
+            "Region3": 514
+        },
+        {
+            "Region1": "Analanjirofo",
+            "Region2": "Fenoarivo Atsinanana",
+            "Region3": 509
+        },
+        {
+            "Region1": "Analanjirofo",
+            "Region2": "Mananara",
+            "Region3": 511
+        },
+        {
+            "Region1": "Analanjirofo",
+            "Region2": "Maroansetra",
+            "Region3": 512
+        },
+        {
+            "Region1": "Analanjirofo",
+            "Region2": "Nosy-Boraha (Ste Marie)",
+            "Region3": 515
+        },
+        {
+            "Region1": "Analanjirofo",
+            "Region2": "Soanierana-Ivongo",
+            "Region3": 516
+        },
+        {
+            "Region1": "Analanjirofo",
+            "Region2": "Vavatenina",
+            "Region3": 518
+        },
+        {
+            "Region1": "Atsinanana",
+            "Region2": "Ampasimanolotra",
+            "Region3": 508
+        },
+        {
+            "Region1": "Atsinanana",
+            "Region2": "Antanambao Manampotsy",
+            "Region3": 507
+        },
+        {
+            "Region1": "Atsinanana",
+            "Region2": "Mahanoro",
+            "Region3": 510
+        },
+        {
+            "Region1": "Atsinanana",
+            "Region2": "Marolambo",
+            "Region3": 513
+        },
+        {
+            "Region1": "Atsinanana",
+            "Region2": "Toamasina Rural",
+            "Region3": 502
+        },
+        {
+            "Region1": "Atsinanana",
+            "Region2": "Toamasina Urban",
+            "Region3": 501
+        },
+        {
+            "Region1": "Atsinanana",
+            "Region2": "Vatomandry",
+            "Region3": 517
+        },
+        {
+            "Region1": "Toliara",
+            "Region2": "Androy",
+            "Region3": "Ambovombe-Androy",
+            "ZIP\n": 604
+        },
+        {
+            "Region1": "Androy",
+            "Region2": "Bekily",
+            "Region3": 607
+        },
+        {
+            "Region1": "Androy",
+            "Region2": "Beloha",
+            "Region3": 609
+        },
+        {
+            "Region1": "Androy",
+            "Region2": "Tsiombe",
+            "Region3": 621
+        },
+        {
+            "Region1": "Anosy",
+            "Region2": "Amboasary Sud",
+            "Region3": 603
+        },
+        {
+            "Region1": "Anosy",
+            "Region2": "Betroka",
+            "Region3": 613
+        },
+        {
+            "Region1": "Anosy",
+            "Region2": "Taolagnaro",
+            "Region3": 614
+        },
+        {
+            "Region1": "Atsimo-Andrefana",
+            "Region2": "Ampanihy",
+            "Region3": 605
+        },
+        {
+            "Region1": "Atsimo-Andrefana",
+            "Region2": "Ankazoabo Sud",
+            "Region3": 606
+        },
+        {
+            "Region1": "Atsimo-Andrefana",
+            "Region2": "Benenitra",
+            "Region3": 610
+        },
+        {
+            "Region1": "Atsimo-Andrefana",
+            "Region2": "Beroroha",
+            "Region3": 611
+        },
+        {
+            "Region1": "Atsimo-Andrefana",
+            "Region2": "Betioky Sud",
+            "Region3": 612
+        },
+        {
+            "Region1": "Atsimo-Andrefana",
+            "Region2": "Morombe",
+            "Region3": 618
+        },
+        {
+            "Region1": "Atsimo-Andrefana",
+            "Region2": "Sakaraha",
+            "Region3": 620
+        },
+        {
+            "Region1": "Atsimo-Andrefana",
+            "Region2": "Toliara Rural",
+            "Region3": 602
+        },
+        {
+            "Region1": "Atsimo-Andrefana",
+            "Region2": "Toliara Urban",
+            "Region3": 601
+        },
+        {
+            "Region1": "Menabe",
+            "Region2": "Belon-i Tsiribihina",
+            "Region3": 608
+        },
+        {
+            "Region1": "Menabe",
+            "Region2": "Mahabo",
+            "Region3": 615
+        },
+        {
+            "Region1": "Menabe",
+            "Region2": "Manja",
+            "Region3": 616
+        },
+        {
+            "Region1": "Menabe",
+            "Region2": "Miandrivazo",
+            "Region3": 617
+        },
+        {
+            "Region1": "Menabe",
+            "Region2": "Morondava",
+            "Region3": 619
+        }
+    ]
+}
