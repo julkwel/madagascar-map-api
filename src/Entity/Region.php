@@ -24,7 +24,7 @@ use Symfony\Component\Uid\Uuid;
     ],
     normalizationContext: ['groups' => ['region:read', 'commune:read', 'district:read', 'fokontany:read']]
 )]
-#[ApiFilter(SearchFilter::class, properties: ['id' => 'exact', 'name' => 'ipartial'])]
+#[ApiFilter(SearchFilter::class, properties: ['name' => 'ipartial'])]
 #[ApiFilter(OrderFilter::class, properties: ['name'], arguments: ['orderParameterName' => 'order'])]
 class Region
 {
