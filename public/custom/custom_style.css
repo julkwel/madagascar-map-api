@@ -1,7 +1,7 @@
 
 header:before {
     content: "";
-    background-color: #014d86;
+    background-color: white;
     height: 70px;
     width: 100%;
     text-align: center;
@@ -20,6 +20,19 @@ header #logo {
 }
 
 header #logo img {
+    height: 50px;
+    background: transparent;
+}
+
+header #home {
+    position: fixed;
+    top : 35px;
+    left: 40px;
+    z-index: 102;
+    transform: translateY(-50%);
+}
+
+header #home img {
     height: 50px;
     background: transparent;
 }

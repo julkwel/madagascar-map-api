@@ -10,6 +10,7 @@ namespace App\Manager;
 use App\Entity\Commune;
 use App\Entity\District;
 use App\Entity\Fokontany;
+use App\Entity\Province;
 use App\Entity\Region;
 use Doctrine\ORM\EntityManagerInterface;
 use Symfony\Component\Console\Style\SymfonyStyle;
@@ -84,5 +85,26 @@ class ImportDataManager
         }
 
         $progressBar->finish();
+    }
+
+    /**
+     * @param SymfonyStyle $ioStyle
+     *
+     * @return void
+     */
+    public function importProvince(SymfonyStyle $ioStyle): void
+    {
+        $payloadFile = $this->parameterBag->get('kernel.project_dir').'/in/json_province.json';
+        $data = json_decode(file_get_contents($payloadFile), true);
+
+        $progressBar = $ioStyle->createProgressBar(count($data));
+        foreach ($data as $item) {
+            $progressBar->advance();
+            $province = $this->entityManager->getRepository(Province::class)->findOneBy(['name' => $item['province']]) ?? new Province();
+            $province->setName($item['province']);
+
+            $this->entityManager->persist($province);
+            $this->entityManager->flush();
+        }
     }
 }

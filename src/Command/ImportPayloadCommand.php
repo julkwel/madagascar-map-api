@@ -22,6 +22,7 @@ class ImportPayloadCommand extends Command
     public function __construct(private ImportDataManager $dataManager)
     {
         parent::__construct();
+        $this->addOption('province', null, InputOption::VALUE_NONE);
     }
 
     protected function configure(): void
@@ -30,6 +31,11 @@ class ImportPayloadCommand extends Command
     protected function execute(InputInterface $input, OutputInterface $output): int
     {
         $ioStyle = new SymfonyStyle($input, $output);
+
+        if ($input->getOption('province')) {
+            $this->dataManager->importProvince($ioStyle);
+            exit(Command::SUCCESS);
+        }
 
         $this->dataManager->importData($ioStyle);
 

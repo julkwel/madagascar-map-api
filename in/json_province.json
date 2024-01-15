@@ -1,0 +1,668 @@
+[
+  {
+    "province": "Antananarivo",
+    "region": "Analamanga",
+    "ville": "Ambohidratrimo",
+    "zip": 105
+  },
+  {
+    "province": "Antananarivo",
+    "region": "Analamanga",
+    "ville": "Andramasina",
+    "zip": 106
+  },
+  {
+    "province": "Antananarivo",
+    "region": "Analamanga",
+    "ville": "Anjozorobe",
+    "zip": 107
+  },
+  {
+    "province": "Antananarivo",
+    "region": "Analamanga",
+    "ville": "Ankazobe",
+    "zip": 108
+  },
+  {
+    "province": "Antananarivo",
+    "region": "Analamanga",
+    "ville": "Antananarivo",
+    "zip": 101
+  },
+  {
+    "province": "Antananarivo",
+    "region": "Analamanga",
+    "ville": "Antananarivo Nord",
+    "zip": 103
+  },
+  {
+    "province": "Antananarivo",
+    "region": "Analamanga",
+    "ville": "Antananarivo Sud",
+    "zip": 102
+  },
+  {
+    "province": "Antananarivo",
+    "region": "Analamanga",
+    "ville": "Manjakandriana",
+    "zip": 116
+  },
+  {
+    "province": "Antananarivo",
+    "region": "Bongolava",
+    "ville": "Fenoarivo Centre",
+    "zip": 115
+  },
+  {
+    "province": "Antananarivo",
+    "region": "Bongolava",
+    "ville": "Tsiroanomandidy",
+    "zip": 119
+  },
+  {
+    "province": "Antananarivo",
+    "region": "Itasy",
+    "ville": "Arivonimamo",
+    "zip": 112
+  },
+  {
+    "province": "Antananarivo",
+    "region": "Itasy",
+    "ville": "Miarinarivo",
+    "zip": 117
+  },
+  {
+    "province": "Antananarivo",
+    "region": "Itasy",
+    "ville": "Soavinandriana",
+    "zip": 118
+  },
+  {
+    "province": "Antananarivo",
+    "region": "Vakinankaratra",
+    "ville": "Ambatolampy",
+    "zip": 104
+  },
+  {
+    "province": "Antananarivo",
+    "region": "Vakinankaratra",
+    "ville": "Antanifotsy",
+    "zip": 109
+  },
+  {
+    "province": "Antananarivo",
+    "region": "Vakinankaratra",
+    "ville": "Antsirabe Rural",
+    "zip": 111
+  },
+  {
+    "province": "Antananarivo",
+    "region": "Vakinankaratra",
+    "ville": "Antsirabe Urban",
+    "zip": 110
+  },
+  {
+    "province": "Antananarivo",
+    "region": "Vakinankaratra",
+    "ville": "Betafo",
+    "zip": 113
+  },
+  {
+    "province": "Antananarivo",
+    "region": "Vakinankaratra",
+    "ville": "Faratsiho",
+    "zip": 114
+  },
+  {
+    "province": "Antsiranana",
+    "region": "Diana",
+    "ville": "Ambanja",
+    "zip": 203
+  },
+  {
+    "province": "Antsiranana",
+    "region": "Diana",
+    "ville": "Ambilobe",
+    "zip": 204
+  },
+  {
+    "province": "Antsiranana",
+    "region": "Diana",
+    "ville": "Antsiranana Rural",
+    "zip": 202
+  },
+  {
+    "province": "Antsiranana",
+    "region": "Diana",
+    "ville": "Antsiranana Urban",
+    "zip": 201
+  },
+  {
+    "province": "Antsiranana",
+    "region": "Diana",
+    "ville": "Nosy Be",
+    "zip": 207
+  },
+  {
+    "province": "Antsiranana",
+    "region": "Sava",
+    "ville": "Andapa",
+    "zip": 205
+  },
+  {
+    "province": "Antsiranana",
+    "region": "Sava",
+    "ville": "Antalaha",
+    "zip": 206
+  },
+  {
+    "province": "Antsiranana",
+    "region": "Sava",
+    "ville": "Sambava",
+    "zip": 208
+  },
+  {
+    "province": "Antsiranana",
+    "region": "Sava",
+    "ville": "Vohimarina (Iharana)",
+    "zip": 209
+  },
+  {
+    "province": "Fianarantsoa",
+    "region": "Amoron'i Mania",
+    "ville": "Ambatofinandrahana",
+    "zip": 304
+  },
+  {
+    "province": "Fianarantsoa",
+    "region": "Amoron'i Mania",
+    "ville": "Ambositra",
+    "zip": 306
+  },
+  {
+    "province": "Fianarantsoa",
+    "region": "Amoron'i Mania",
+    "ville": "Fandriana",
+    "zip": 308
+  },
+  {
+    "province": "Fianarantsoa",
+    "region": "Amoron'i Mania",
+    "ville": "Manandriana",
+    "zip": 323
+  },
+  {
+    "province": "Fianarantsoa",
+    "region": "Atsimo-Atsinana",
+    "ville": "Befotaka",
+    "zip": 307
+  },
+  {
+    "province": "Fianarantsoa",
+    "region": "Atsimo-Atsinana",
+    "ville": "Farafangana",
+    "zip": 309
+  },
+  {
+    "province": "Fianarantsoa",
+    "region": "Atsimo-Atsinana",
+    "ville": "Midongy Sud",
+    "zip": 318
+  },
+  {
+    "province": "Fianarantsoa",
+    "region": "Atsimo-Atsinana",
+    "ville": "Vangaindrano",
+    "zip": 320
+  },
+  {
+    "province": "Fianarantsoa",
+    "region": "Atsimo-Atsinana",
+    "ville": "Vondrozo",
+    "zip": 322
+  },
+  {
+    "province": "Fianarantsoa",
+    "region": "Haute Matsiatra",
+    "ville": "Ambalavao",
+    "zip": 303
+  },
+  {
+    "province": "Fianarantsoa",
+    "region": "Haute Matsiatra",
+    "ville": "Ambohimahasoa",
+    "zip": 305
+  },
+  {
+    "province": "Fianarantsoa",
+    "region": "Haute Matsiatra",
+    "ville": "Fianarantsoa Rural",
+    "zip": 302
+  },
+  {
+    "province": "Fianarantsoa",
+    "region": "Haute Matsiatra",
+    "ville": "Fianarantsoa Urban",
+    "zip": 301
+  },
+  {
+    "province": "Fianarantsoa",
+    "region": "Haute Matsiatra",
+    "ville": "Ikalamavony",
+    "zip": 314
+  },
+  {
+    "province": "Fianarantsoa",
+    "region": "Ihorombe",
+    "ville": "Iakora",
+    "zip": 311
+  },
+  {
+    "province": "Fianarantsoa",
+    "region": "Ihorombe",
+    "ville": "Ihosy",
+    "zip": 313
+  },
+  {
+    "province": "Fianarantsoa",
+    "region": "Ihorombe",
+    "ville": "Ivohibe",
+    "zip": 315
+  },
+  {
+    "province": "Fianarantsoa",
+    "region": "Vatovavy Fitovinany",
+    "ville": "Ifanadiana",
+    "zip": 312
+  },
+  {
+    "province": "Fianarantsoa",
+    "region": "Vatovavy Fitovinany",
+    "ville": "Ikongo",
+    "zip": 310
+  },
+  {
+    "province": "Fianarantsoa",
+    "region": "Vatovavy Fitovinany",
+    "ville": "Manakara Sud",
+    "zip": 316
+  },
+  {
+    "province": "Fianarantsoa",
+    "region": "Vatovavy Fitovinany",
+    "ville": "Mananjary",
+    "zip": 317
+  },
+  {
+    "province": "Fianarantsoa",
+    "region": "Vatovavy Fitovinany",
+    "ville": "Nosy Varika",
+    "zip": 319
+  },
+  {
+    "province": "Fianarantsoa",
+    "region": "Vatovavy Fitovinany",
+    "ville": "Vohipeno",
+    "zip": 321
+  },
+  {
+    "province": "Mahajanga",
+    "region": "Betsiboka",
+    "ville": "Kandreho",
+    "zip": 411
+  },
+  {
+    "province": "Mahajanga",
+    "region": "Betsiboka",
+    "ville": "Maevatanana",
+    "zip": 412
+  },
+  {
+    "province": "Mahajanga",
+    "region": "Betsiboka",
+    "ville": "Tsaratanana",
+    "zip": 421
+  },
+  {
+    "province": "Mahajanga",
+    "region": "Boeny",
+    "ville": "Ambato-Boina",
+    "zip": 403
+  },
+  {
+    "province": "Mahajanga",
+    "region": "Boeny",
+    "ville": "Mahajanga Rural",
+    "zip": 402
+  },
+  {
+    "province": "Mahajanga",
+    "region": "Boeny",
+    "ville": "Mahajanga Urban",
+    "zip": 401
+  },
+  {
+    "province": "Mahajanga",
+    "region": "Boeny",
+    "ville": "Marovoay",
+    "zip": 416
+  },
+  {
+    "province": "Mahajanga",
+    "region": "Boeny",
+    "ville": "Mitsinjo",
+    "zip": 417
+  },
+  {
+    "province": "Mahajanga",
+    "region": "Boeny",
+    "ville": "Soalala",
+    "zip": 420
+  },
+  {
+    "province": "Mahajanga",
+    "region": "Melaky",
+    "ville": "Ambatomainty",
+    "zip": 404
+  },
+  {
+    "province": "Mahajanga",
+    "region": "Melaky",
+    "ville": "Antsalova",
+    "zip": 406
+  },
+  {
+    "province": "Mahajanga",
+    "region": "Melaky",
+    "ville": "Besalampy",
+    "zip": 410
+  },
+  {
+    "province": "Mahajanga",
+    "region": "Melaky",
+    "ville": "Maintirano",
+    "zip": 413
+  },
+  {
+    "province": "Mahajanga",
+    "region": "Melaky",
+    "ville": "Morafanobe",
+    "zip": 418
+  },
+  {
+    "province": "Mahajanga",
+    "region": "Sofia",
+    "ville": "Analalava",
+    "zip": 405
+  },
+  {
+    "province": "Mahajanga",
+    "region": "Sofia",
+    "ville": "Antsihihy",
+    "zip": 407
+  },
+  {
+    "province": "Mahajanga",
+    "region": "Sofia",
+    "ville": "Bealanana",
+    "zip": 408
+  },
+  {
+    "province": "Mahajanga",
+    "region": "Sofia",
+    "ville": "Befandriana Nord",
+    "zip": 409
+  },
+  {
+    "province": "Mahajanga",
+    "region": "Sofia",
+    "ville": "Mampikony",
+    "zip": 414
+  },
+  {
+    "province": "Mahajanga",
+    "region": "Sofia",
+    "ville": "Mandritsara",
+    "zip": 415
+  },
+  {
+    "province": "Mahajanga",
+    "region": "Sofia",
+    "ville": "Port Berg",
+    "zip": 419
+  },
+  {
+    "province": "Toamasina",
+    "region": "Alaotra-Mangoro",
+    "ville": "Ambatondrazaka",
+    "zip": 503
+  },
+  {
+    "province": "Toamasina",
+    "region": "Alaotra-Mangoro",
+    "ville": "Amparafaravola",
+    "zip": 504
+  },
+  {
+    "province": "Toamasina",
+    "region": "Alaotra-Mangoro",
+    "ville": "Andilamena",
+    "zip": 505
+  },
+  {
+    "province": "Toamasina",
+    "region": "Alaotra-Mangoro",
+    "ville": "Anosibe",
+    "zip": 506
+  },
+  {
+    "province": "Toamasina",
+    "region": "Alaotra-Mangoro",
+    "ville": "Moramanga",
+    "zip": 514
+  },
+  {
+    "province": "Toamasina",
+    "region": "Analanjirofo",
+    "ville": "Fenoarivo Atsinanana",
+    "zip": 509
+  },
+  {
+    "province": "Toamasina",
+    "region": "Analanjirofo",
+    "ville": "Mananara",
+    "zip": 511
+  },
+  {
+    "province": "Toamasina",
+    "region": "Analanjirofo",
+    "ville": "Maroansetra",
+    "zip": 512
+  },
+  {
+    "province": "Toamasina",
+    "region": "Analanjirofo",
+    "ville": "Nosy-Boraha (Ste Marie)",
+    "zip": 515
+  },
+  {
+    "province": "Toamasina",
+    "region": "Analanjirofo",
+    "ville": "Soanierana-Ivongo",
+    "zip": 516
+  },
+  {
+    "province": "Toamasina",
+    "region": "Analanjirofo",
+    "ville": "Vavatenina",
+    "zip": 518
+  },
+  {
+    "province": "Toamasina",
+    "region": "Atsinanana",
+    "ville": "Ampasimanolotra",
+    "zip": 508
+  },
+  {
+    "province": "Toamasina",
+    "region": "Atsinanana",
+    "ville": "Antanambao Manampotsy",
+    "zip": 507
+  },
+  {
+    "province": "Toamasina",
+    "region": "Atsinanana",
+    "ville": "Mahanoro",
+    "zip": 510
+  },
+  {
+    "province": "Toamasina",
+    "region": "Atsinanana",
+    "ville": "Marolambo",
+    "zip": 513
+  },
+  {
+    "province": "Toamasina",
+    "region": "Atsinanana",
+    "ville": "Toamasina Rural",
+    "zip": 502
+  },
+  {
+    "province": "Toamasina",
+    "region": "Atsinanana",
+    "ville": "Toamasina Urban",
+    "zip": 501
+  },
+  {
+    "province": "Toamasina",
+    "region": "Atsinanana",
+    "ville": "Vatomandry",
+    "zip": 517
+  },
+  {
+    "province": "Toliara",
+    "region": "Androy",
+    "ville": "Ambovombe-Androy",
+    "zip": 604
+  },
+  {
+    "province": "Toliara",
+    "region": "Androy",
+    "ville": "Bekily",
+    "zip": 607
+  },
+  {
+    "province": "Toliara",
+    "region": "Androy",
+    "ville": "Beloha",
+    "zip": 609
+  },
+  {
+    "province": "Toliara",
+    "region": "Androy",
+    "ville": "Tsiombe",
+    "zip": 621
+  },
+  {
+    "province": "Toliara",
+    "region": "Anosy",
+    "ville": "Amboasary Sud",
+    "zip": 603
+  },
+  {
+    "province": "Toliara",
+    "region": "Anosy",
+    "ville": "Betroka",
+    "zip": 613
+  },
+  {
+    "province": "Toliara",
+    "region": "Anosy",
+    "ville": "Taolagnaro",
+    "zip": 614
+  },
+  {
+    "province": "Toliara",
+    "region": "Atsimo-Andrefana",
+    "ville": "Ampanihy",
+    "zip": 605
+  },
+  {
+    "province": "Toliara",
+    "region": "Atsimo-Andrefana",
+    "ville": "Ankazoabo Sud",
+    "zip": 606
+  },
+  {
+    "province": "Toliara",
+    "region": "Atsimo-Andrefana",
+    "ville": "Benenitra",
+    "zip": 610
+  },
+  {
+    "province": "Toliara",
+    "region": "Atsimo-Andrefana",
+    "ville": "Beroroha",
+    "zip": 611
+  },
+  {
+    "province": "Toliara",
+    "region": "Atsimo-Andrefana",
+    "ville": "Betioky Sud",
+    "zip": 612
+  },
+  {
+    "province": "Toliara",
+    "region": "Atsimo-Andrefana",
+    "ville": "Morombe",
+    "zip": 618
+  },
+  {
+    "province": "Toliara",
+    "region": "Atsimo-Andrefana",
+    "ville": "Sakaraha",
+    "zip": 620
+  },
+  {
+    "province": "Toliara",
+    "region": "Atsimo-Andrefana",
+    "ville": "Toliara Rural",
+    "zip": 602
+  },
+  {
+    "province": "Toliara",
+    "region": "Atsimo-Andrefana",
+    "ville": "Toliara Urban",
+    "zip": 601
+  },
+  {
+    "province": "Toliara",
+    "region": "Menabe",
+    "ville": "Belon-i Tsiribihina",
+    "zip": 608
+  },
+  {
+    "province": "Toliara",
+    "region": "Menabe",
+    "ville": "Mahabo",
+    "zip": 615
+  },
+  {
+    "province": "Toliara",
+    "region": "Menabe",
+    "ville": "Manja",
+    "zip": 616
+  },
+  {
+    "province": "Toliara",
+    "region": "Menabe",
+    "ville": "Miandrivazo",
+    "zip": 617
+  },
+  {
+    "province": "Toliara",
+    "region": "Menabe",
+    "ville": "Morondava",
+    "zip": 619
+  }
+]

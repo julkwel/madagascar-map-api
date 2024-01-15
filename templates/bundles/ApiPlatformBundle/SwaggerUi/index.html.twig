@@ -61,8 +61,13 @@
 </svg>
 
 {% block header %}
-    <header>
-        <a id="logo" href="https://api-platform.com"><img src="{{ asset('custom/img_1.png', assetPackage) }}" alt="API Platform"></a>
+    <header style="display: flex">
+        <a id="logo" href="https://github.com/julkwel/madagascar-map-api" target="_blank">
+            <img src="{{ asset('custom/img_2.png', assetPackage) }}" alt="Github">
+        </a>
+        <a id="home" href="{{ path('home_page') }}" target="_blank">
+            <img src="{{ asset('custom/img_1.png', assetPackage) }}" alt="Home page">
+        </a>
     </header>
 {% endblock %}
 
