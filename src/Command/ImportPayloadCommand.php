@@ -23,6 +23,7 @@ class ImportPayloadCommand extends Command
     {
         parent::__construct();
         $this->addOption('province', null, InputOption::VALUE_NONE);
+        $this->addOption('code-postale', null, InputOption::VALUE_NONE);
     }
 
     protected function configure(): void
@@ -31,6 +32,11 @@ class ImportPayloadCommand extends Command
     protected function execute(InputInterface $input, OutputInterface $output): int
     {
         $ioStyle = new SymfonyStyle($input, $output);
+
+        if ($input->getOption('code-postale')) {
+            $this->dataManager->importCodePostale($ioStyle);
+            exit(Command::SUCCESS);
+        }
 
         if ($input->getOption('province')) {
             $this->dataManager->importProvince($ioStyle);

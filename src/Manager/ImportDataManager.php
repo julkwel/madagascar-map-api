@@ -7,6 +7,7 @@
 
 namespace App\Manager;
 
+use App\Entity\CodePostale;
 use App\Entity\Commune;
 use App\Entity\District;
 use App\Entity\Fokontany;
@@ -104,6 +105,33 @@ class ImportDataManager
             $province->setName($item['province']);
 
             $this->entityManager->persist($province);
+            $this->entityManager->flush();
+        }
+    }
+
+    public function importCodePostale(SymfonyStyle $ioStyle)
+    {
+        $payloadFile = $this->parameterBag->get('kernel.project_dir').'/in/json_province.json';
+        $data = json_decode(file_get_contents($payloadFile), true);
+
+        $progressBar = $ioStyle->createProgressBar(count($data));
+        foreach ($data as $item) {
+            $progressBar->advance();
+            $province = $this->entityManager->getRepository(Province::class)->findOneBy(['name' => $item['province']]);
+            $codePostale = $this->entityManager->getRepository(CodePostale::class)->findOneBy(['codePostal' => $item['zip'], 'province' => $province]) ?? new CodePostale();
+
+            $codePostale->setCodePostal($item['zip']);
+            $codePostale->setProvince($province);
+            $codePostale->setVille($item['ville']);
+            if ('Antananarivo Nord' === $item['ville']) {
+                $codePostale->setVille('Antananarivo Avaradrano');
+            }
+
+            if ('Antananarivo Sud' === $item['ville']) {
+                $codePostale->setVille('Antananarivo Atsimondrano');
+            }
+
+            $this->entityManager->persist($codePostale);
             $this->entityManager->flush();
         }
     }
