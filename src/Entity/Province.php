@@ -12,6 +12,7 @@ use App\Repository\ProvinceRepository;
 use Doctrine\ORM\Mapping as ORM;
 use Symfony\Bridge\Doctrine\Types\UuidType;
 use Symfony\Component\Serializer\Attribute\Groups;
+use Symfony\Component\Uid\Uuid;
 
 #[ORM\Entity(repositoryClass: ProvinceRepository::class)]
 #[ApiResource(
@@ -30,13 +31,13 @@ class Province
     #[ORM\GeneratedValue(strategy: 'CUSTOM')]
     #[ORM\CustomIdGenerator(class: 'doctrine.uuid_generator')]
     #[Groups(['province:read'])]
-    private ?int $id = null;
+    private ?Uuid $id = null;
 
     #[ORM\Column(length: 255)]
     #[Groups(['province:read'])]
     private ?string $name = null;
 
-    public function getId(): ?int
+    public function getId(): ?string
     {
         return $this->id;
     }
